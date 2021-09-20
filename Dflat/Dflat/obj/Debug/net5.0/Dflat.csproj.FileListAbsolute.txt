@@ -1,0 +1,16 @@
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.exe
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.deps.json
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.runtimeconfig.json
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.runtimeconfig.dev.json
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.dll
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\ref\Dflat.dll
+C:\temp\git\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.pdb
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.csproj.AssemblyReference.cache
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.AssemblyInfoInputs.cache
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.AssemblyInfo.cs
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.csproj.CoreCompileInputs.cache
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.dll
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\ref\Dflat.dll
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.pdb
+C:\temp\git\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.genruntimeconfig.cache
