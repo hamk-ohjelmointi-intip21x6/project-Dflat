@@ -1,5 +1,5 @@
 
-Ryhmä: Benjamin Soumah, Arseniy Sergeenko, Kim Kohonen
+Ryhmä: Benjamin Soumah, Arseniy Sergeenko, Kim Kohonen, Hüseyin Aydin
 
 Projekti: Laskutus
 
