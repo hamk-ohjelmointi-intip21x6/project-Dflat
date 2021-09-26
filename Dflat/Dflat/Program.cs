@@ -13,24 +13,26 @@ namespace Dflat
         {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
-            var file = new FileInfo(@"..\Data\Customers.xlsx");         
+            var file = new FileInfo("./Customers.xlsx");         
             var people = GetSetupData(); //Lataa PersonModel listaa sisään
 
             await SaveExcelFile(people, file);
 
 
         }
-
-
-        private static Task SaveExcelFile(List<PersonModel> people, FileInfo file)
+        private static async Task SaveExcelFile(List<PersonModel> people, FileInfo file)
         {
             DeleteIfExists(file); // Tarkistaa että file on olemassa, jos on, poistaa uuden
 
-            using (var package = new ExcelPackage(file)) 
-            {
+            using var package = new ExcelPackage(file);
 
-                package.Dispose(); // Varmistaa että kun ohjelma sulkeutuu, tiedosto on taas käytössä (puhdistaa)
-            }
+            var ws = package.Workbook.Worksheets.Add("MainReport"); // Luo uuden välilehden taulukossa
+
+            var range = ws.Cells["A1"].LoadFromCollection(people, true);
+            range.AutoFitColumns();
+
+            await package.SaveAsync();
+            
         }
 
         private static void DeleteIfExists(FileInfo file)
@@ -41,13 +43,13 @@ namespace Dflat
             }
         }
 
-        private static List<PersonModel> GetSetupData()
+        private static List<PersonModel> GetSetupData() //Data jota tallennetaan taulukkoon
         {
             List<PersonModel> output = new()
             {
                 new() { Id = 1, FirstName = "Joe", LastName = "Doe" },
-                new() { Id = 1, FirstName = "Turo", LastName = "Nylund" },
-                new() { Id = 1, FirstName = "Veli-Matti", LastName = "Velho" },
+                new() { Id = 2, FirstName = "Turo", LastName = "Nylund" },
+                new() { Id = 3, FirstName = "Veli-Matti", LastName = "Velho" }
             };
 
             return output;

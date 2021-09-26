@@ -1,12 +1,11 @@
 ﻿namespace Dflat
 {
     // Asiakkaan henkilöllisyysmalli
-    internal class PersonModel
+    public class PersonModel
     {
-        internal int Id { get; set; }
-
-        internal string FirstName { get; set; }
-        internal string LastName { get; set; }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
     }
 }

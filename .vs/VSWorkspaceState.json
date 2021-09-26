@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Dflat",
+    "\\Dflat\\Dflat"
   ],
+  "SelectedNode": "\\Dflat\\Dflat\\Dflat.csproj",
   "PreviewInSolutionExplorer": false
 }
