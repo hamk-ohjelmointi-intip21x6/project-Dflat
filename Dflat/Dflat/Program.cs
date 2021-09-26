@@ -6,7 +6,8 @@ namespace Dflat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Valikko valikko = new Valikko();
+            valikko.AlkuValikko();
         }
     }
 }

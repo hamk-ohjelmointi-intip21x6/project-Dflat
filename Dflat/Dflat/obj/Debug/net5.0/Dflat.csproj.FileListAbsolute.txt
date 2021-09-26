@@ -1,0 +1,16 @@
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.exe
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.deps.json
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.runtimeconfig.json
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.runtimeconfig.dev.json
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.dll
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\ref\Dflat.dll
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\Dflat.pdb
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.csproj.AssemblyReference.cache
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.AssemblyInfoInputs.cache
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.AssemblyInfo.cs
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.csproj.CoreCompileInputs.cache
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.dll
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\ref\Dflat.dll
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.pdb
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.genruntimeconfig.cache
