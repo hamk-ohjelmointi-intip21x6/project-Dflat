@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Dflat
-build_property.ProjectDir = C:\Users\shocklord\Source\Repos\project-Dflat\Dflat\Dflat\
+build_property.RootNamespace = DflatThroughCSV
+build_property.ProjectDir = C:\Users\shocklord\Source\Repos\project-Dflat\
