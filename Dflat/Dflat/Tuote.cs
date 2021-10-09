@@ -17,12 +17,12 @@ namespace Dflat
 
             Tuote Basic = new Tuote();
             Basic.Tuotenumero = 1;
-            Basic.Tuotenimi = "Basic";
+            Basic.Tuotenimi = "Basic   ";
             Basic.Hinta = 40.0;
 
             Tuote Pro = new Tuote();
             Pro.Tuotenumero = 2;
-            Pro.Tuotenimi = "Pro";
+            Pro.Tuotenimi = "Pro     ";
             Pro.Hinta = 80.0;
 
             Tuote Enterprise = new Tuote();
@@ -38,18 +38,21 @@ namespace Dflat
 
     class Tulostaja
     {
-        public void TulostaTuotteet() // Kun asiakkaalla ei ole käyttäjää, lista tuotteista, ei voi valita mitään, pitää varmaa joskus järjestää tuloste hienommi. Tuotteista pitäis lisää enemmä infoo myös
+        public void TulostaTuotteet() // Kun asiakkaalla ei ole käyttäjää, lista tuotteista, ei voi valita mitään.
         {
             Tuote tuote = new Tuote();
             tuote.TuoteLista();
 
-
-            Console.WriteLine("\nTuotenimi\t\tTuotenumero\t\t\tHinta");
+            Console.WriteLine("===============================================================");
+            Console.WriteLine("Alla lista tuotteista");
+            Console.WriteLine("===============================================================");
+            Console.WriteLine("* Uudelle asiakkaalle 30 päivän ilmainen kokeilu.");
+            Console.WriteLine("   Tuotenimi\t\t\tTuotenumero\t\t\tHinta   ");
 
             for (int i = 0; i < tuote.tuotelista.Count; i++)
             {
                 Tuote listallaOlevaTuote = tuote.tuotelista[i];
-                var tuloste = $"{listallaOlevaTuote.Tuotenimi}\t\t\t{listallaOlevaTuote.Tuotenumero}\t\t\t\t{listallaOlevaTuote.Hinta}";
+                var tuloste = $"{"   " + listallaOlevaTuote.Tuotenimi}\t\t\t{listallaOlevaTuote.Tuotenumero}\t\t\t\t{listallaOlevaTuote.Hinta + "   "}";
                 Console.WriteLine(tuloste);
             }
 
@@ -58,12 +61,71 @@ namespace Dflat
             Console.ReadLine();
 
             Valikko valikko = new Valikko();
+            Console.Clear();
             valikko.AlkuValikko();
         }
 
-        public void TulostaTuoteValinta() // Kun asiakas kirjautunut sisään, pystyy valitsemaan tuotteen
+        // Ei tallenna vielä tietoja minnekkään
+        public void TuoteValinta() // Kun asiakas kirjautunut sisään, pystyy valitsemaan tuotteen. Maksutapahtuman ensimmäinen vaihe, valitse tuote, ALE juttu puuttuu viel
         {
+            Tuote tuote = new Tuote();
+            tuote.TuoteLista();
+            Console.WriteLine("===============================================================");
+            Console.WriteLine("Alla lista tuotteista");
+            Console.WriteLine("===============================================================");
+            Console.WriteLine("* Uudelle asiakkaalle 30 päivän ilmainen kokeilu.\n");
+            Console.WriteLine("   Tuotenimi\t\tTuotenumero\t\t\tHinta   ");
 
+            for (int i = 0; i < tuote.tuotelista.Count; i++)
+            {
+                Tuote listallaOlevaTuote = tuote.tuotelista[i];
+                var tuloste = $"{"   " + listallaOlevaTuote.Tuotenimi}\t\t{listallaOlevaTuote.Tuotenumero}\t\t\t\t{listallaOlevaTuote.Hinta + "   "}";
+                Console.WriteLine(tuloste);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Valitse tuotenumero...");
+            Console.WriteLine("<< 0: Lopetus >>");
+            Console.WriteLine("<< 1: Basic >>");
+            Console.WriteLine("<< 2: Pro >>");
+            Console.WriteLine("<< 3: Enterprise >>");
+            Console.WriteLine();
+
+            Palvelu palvelu = new Palvelu();
+
+            string valinta = Console.ReadLine();
+
+            switch (valinta)
+            {
+                case "0":
+                    Console.WriteLine("\nSuljetaan...");
+                    Environment.Exit(0);
+                    break;
+                case "1": // Basic tuote
+                    Console.WriteLine("Valitsit tuotteen, Basic\n");
+                    Console.WriteLine("Paina enteriä jatkaaksesi...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    palvelu.TuotePalvelut(40.0);
+                    break;
+                case "2": // Pro tuote
+                    Console.WriteLine("Valitsit tuotteen, Pro\n");
+                    Console.WriteLine("Paina enteriä jatkaaksesi...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    palvelu.TuotePalvelut(80.0);
+                    break;
+                case "3": // Enterprise tuote
+                    Console.WriteLine("Valitsit tuotteen, Enterprise\n");
+                    Console.WriteLine("Paina enteriä jatkaaksesi...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    palvelu.TuotePalvelut(120.0);
+                    break;
+                default:
+                    Console.WriteLine("Valitse ylläolevista vaihtoehdoista");
+                    break;
+            }
         }
     }
 }

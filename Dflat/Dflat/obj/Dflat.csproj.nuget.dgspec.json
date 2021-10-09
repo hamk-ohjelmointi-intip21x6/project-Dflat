@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj": {}
+    "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj": {
+    "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
+        "projectUniqueName": "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
         "projectName": "Dflat",
-        "projectPath": "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
+        "projectPath": "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
         "packagesPath": "C:\\Users\\Shade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\obj\\",
+        "outputPath": "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shade\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

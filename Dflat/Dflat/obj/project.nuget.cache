@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NQF6f2kWX1zLxFyzaoVjdrWrXWJM1jZb0PKQ0DXoKEsDp53BUoFL+fa7vcEvd6Mb2THZI9NHba91QFyF2h9NlA==",
+  "dgSpecHash": "Yl1pV+e09IQwRry9/tMxQ69b/mkm5VNFAUCeaa0ak9IOG+0I4O6RSgh+Pjf3Bg2DNZPvP3FysszrF5ZeRrKrJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shade\\Source\\Repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Shade\\source\\repos\\project-Dflat\\Dflat\\Dflat\\Dflat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shade\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

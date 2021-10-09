@@ -11,25 +11,21 @@ namespace Dflat
         public void Kirjaudu() //Testissä, Tekstitiedosto juttu pitäis lisää
         {
             //Testiarvoja
-            string etunimi = "admin";
-            string sukunimi = "admin";
-            string id = "id";
-            string vastaus = "0";
+            string etunimi, sukunimi;
+            string id;
 
-            while (vastaus != etunimi & vastaus != sukunimi & vastaus != id)
-            {
-                Console.WriteLine("Anna Etunimi: ");
-                etunimi = Console.ReadLine();
+            Console.WriteLine("Anna Etunimi: ");
+            etunimi = Console.ReadLine();
 
-                Console.WriteLine("Anna Sukunimi: ");
-                sukunimi = Console.ReadLine();
+            Console.WriteLine("Anna Sukunimi: ");
+            sukunimi = Console.ReadLine();
 
-                Console.WriteLine("Anna ID: ");
-                id = Console.ReadLine();
-            }
+            Console.WriteLine("Anna ID: ");
+            id = Console.ReadLine();
 
             Valikko valikko = new Valikko();
-            valikko.PääValikko(etunimi, sukunimi);
+            Console.Clear();
+            valikko.PääValikko(ETarkistaja(), STarkistaja());
         }
 
         public void Rekisteröidy() //Testissä, Tekstitiedosto juttu pitäis lisää
@@ -44,6 +40,20 @@ namespace Dflat
 
             Console.WriteLine("Anna ID: ");
             id = Console.ReadLine();
+        }
+
+        public string TestiEtuNimi = "Testi"; /////
+        public string TestiSukuNimi = "Tyyppi"; /////
+
+        public string ETarkistaja()///////////////// Hakee asiakkaan tiedot, johon varastoidaan nimet ja ehkä jotai muuta tietoo.
+        {
+            string testietuNimi = TestiEtuNimi;
+            return testietuNimi;
+        }
+        public string STarkistaja()
+        {
+            string testisukuNimi = TestiSukuNimi;
+            return testisukuNimi;
         }
     }
 }

@@ -14,3 +14,5 @@ C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.dll
 C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\ref\Dflat.dll
 C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.pdb
 C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.genruntimeconfig.cache
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\Shade\source\repos\project-Dflat\Dflat\Dflat\obj\Debug\net5.0\Dflat.csproj.CopyComplete
