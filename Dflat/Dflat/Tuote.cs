@@ -11,7 +11,7 @@ namespace Dflat
 
         public List<Tuote> tuotelista = new List<Tuote>();
 
-        public void TuoteLista() // Pitäis lisää tuotteet jossai kohtaa johonki tekstitiedostoon
+        public void TuoteLista() // Näitä ei välttämättä tarvi lisää listaan
         {
             Tuote tuote = new Tuote();
 

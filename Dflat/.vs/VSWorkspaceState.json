@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Dflat",
+    "\\Dflat\\bin",
+    "\\Dflat\\obj"
   ],
+  "SelectedNode": "\\Dflat.sln",
   "PreviewInSolutionExplorer": false
 }

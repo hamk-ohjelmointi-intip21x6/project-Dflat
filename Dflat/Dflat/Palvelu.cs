@@ -116,8 +116,20 @@ namespace Dflat
             }
             else
             {
-                double laskuSumma = (paketti - trial) * tuote;
-                return laskuSumma;
+                if (paketti == 6.0)
+                {
+                    double laskuSumma = (paketti - trial) * tuote;
+                    double laskuSummaAle = 0.1 * laskuSumma; // Laskee Alen 10 %
+                    double lasku = laskuSumma - laskuSummaAle;
+                    return lasku;
+                }
+                else
+                {
+                    double laskuSumma = (paketti - trial) * tuote;
+                    double laskuSummaAle = 0.18 * laskuSumma; // Laskee Alen 18 %
+                    double lasku = laskuSumma - laskuSummaAle;
+                    return lasku;
+                }
             }
         }
 
