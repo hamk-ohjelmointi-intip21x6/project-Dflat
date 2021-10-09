@@ -12,6 +12,8 @@ namespace Dflat
         private static int _counter;
         private string _etunimi;
         private string _sukunimi;
+        private string _valittupalvelu;
+        private string _valittuaika;
 
         public string etunimi
         {
@@ -25,11 +27,23 @@ namespace Dflat
             set => _sukunimi = value;
         }
 
+        public string valittupalvelu
+        {
+            get => _valittupalvelu;
+            set => _valittupalvelu = value;
+        }
+
+        public string valittuaika
+        {
+            get => _valittuaika;
+            set => _valittuaika = value;
+        }
+
         public static int Counter => _counter;
 
         public User()
         {
-            _counter = ++_id; // Laske käyttäjän paikkaa jonossa
+            _counter = ++_id; // Laske käyttäjän paikkaa listassa
         }
     }
 }

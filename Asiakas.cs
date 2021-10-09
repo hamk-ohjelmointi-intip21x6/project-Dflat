@@ -13,8 +13,8 @@ namespace Dflat
             //Testiarvoja
             string etunimi = "admin";
             string sukunimi = "admin";
-            string id = "id";
             string vastaus = "0";
+            string id = "0";
 
             while (vastaus != etunimi & vastaus != sukunimi & vastaus != id)
             {
@@ -23,13 +23,10 @@ namespace Dflat
 
                 Console.WriteLine("Anna Sukunimi: ");
                 sukunimi = Console.ReadLine();
-
-                Console.WriteLine("Anna ID: ");
-                id = Console.ReadLine();
             }
 
             Valikko valikko = new Valikko();
-            valikko.PääValikko(etunimi, sukunimi);
+            valikko.PääValikko();
         }
 
         public void Rekisteröidy() //Testissä, Tekstitiedosto juttu pitäis lisää
@@ -37,15 +34,17 @@ namespace Dflat
             User._id = 100;
             User u1 = new User();
 
-            Console.WriteLine("Anna etunimesi: ");
+            Console.WriteLine("Syötä etunimesi: ");
             u1.etunimi = Console.ReadLine();
 
-            Console.WriteLine("Anna sukunimesi: ");
+            Console.WriteLine("Syötä sukunimesi: ");
             u1.sukunimi = Console.ReadLine();
 
             PersonList personList = new PersonList();
             personList.SaveUser();
 
+            Valikko valikko = new Valikko();
+            valikko.PääValikko();
             
         }
     }
