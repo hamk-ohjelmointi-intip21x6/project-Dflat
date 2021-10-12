@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+
+
 namespace Dflat
 {
     public class Valikko
@@ -9,7 +12,6 @@ namespace Dflat
         {
             Asiakas asiakas = new Asiakas();
             Tulostaja tulostaja = new Tulostaja();
-
 
             // Valikko
             Console.WriteLine("===============================================================");
@@ -55,7 +57,7 @@ namespace Dflat
             Console.WriteLine("Tervetuloa!, {0} {1}. Kuinka voimme palvella?");
             Console.WriteLine("===============================================================");
             Console.WriteLine("<< 0: Lopetus >>");
-            Console.WriteLine("<< 1: - >>");
+            Console.WriteLine("<< 1: 30 päivää kokeiluaikaa >>");
             Console.WriteLine("<< 2: Tiedot >>");
             Console.WriteLine("<< 3: Muuta Palvelut >>");
             Console.WriteLine();
@@ -69,7 +71,8 @@ namespace Dflat
                     Environment.Exit(0);
                     break;
                 case "1":
-                    
+                    Kokeilu();
+                    Näytä();
                     break;
                 case "2":
                     Näytä();
@@ -90,8 +93,14 @@ namespace Dflat
         {
 
         };
+        public List<double> valittuHinta = new List<double>
+        {
+
+        };
+
         public void Näytä()
         {
+            Console.WriteLine("___________________________________________________");
             foreach (string item in valittuTuote1)
             {
                 Console.WriteLine("Valitsemasi tuote on: " + item);
@@ -102,7 +111,25 @@ namespace Dflat
                 Console.WriteLine("Seuraava eräpäivä on: " + item1);
             }
 
+            foreach (double item2 in valittuHinta)
+            {
+                Console.WriteLine("Hinta on: " + item2);
+            }
+            Console.WriteLine("___________________________________________________");
+
             PääValikko();
+        }
+
+        public void Kokeilu()
+        {
+            DateTime PäiväNyt = DateTime.Now;
+            DateTime KokeiluAika = PäiväNyt.AddMonths(1);
+            double KokeiluHinta = 0;
+            string KokeiluTuote = "30 päivän kokeiluversio";
+
+            valittuAika1.Add(KokeiluAika);
+            valittuHinta.Add(KokeiluHinta);
+            valittuTuote1.Add(KokeiluTuote);
         }
     }
 
