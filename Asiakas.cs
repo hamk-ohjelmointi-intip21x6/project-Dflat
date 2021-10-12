@@ -40,12 +40,20 @@ namespace Dflat
             Console.WriteLine("Syötä sukunimesi: ");
             u1.sukunimi = Console.ReadLine();
 
-            PersonList personList = new PersonList();
-            personList.SaveUser();
+            SaveUser();
 
             Valikko valikko = new Valikko();
             valikko.PääValikko();
-            
+
+        }
+
+        public void SaveUser()
+        {
+            List<User> userList = new List<User>
+            {
+
+            };
+            userList.Add(new User());
         }
     }
 }

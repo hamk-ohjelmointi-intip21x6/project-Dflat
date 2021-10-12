@@ -38,6 +38,7 @@ namespace Dflat
                     break;
                 case "2":
                     asiakas.Rekisteröidy();
+                    asiakas.SaveUser();
                     break;
                 case "3":
                     tulostaja.TulostaTuotteet();
@@ -54,7 +55,7 @@ namespace Dflat
             
 
             Console.WriteLine("===============================================================");
-            Console.WriteLine("Tervetuloa!, {0} {1}. Kuinka voimme palvella?");
+            Console.WriteLine("Tervetuloa! Kuinka voimme palvella?");
             Console.WriteLine("===============================================================");
             Console.WriteLine("<< 0: Lopetus >>");
             Console.WriteLine("<< 1: 30 päivää kokeiluaikaa >>");
