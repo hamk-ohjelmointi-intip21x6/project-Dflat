@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bjf07tfCPKyvi2LP018ctAnz734z4+WSIcwtbTo1SbNvhbZM15Scv/wTaPjMsrOFUXUOTzD+WYu2Khblqvfuhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arsen\\source\\repos\\DflatThroughCSV\\DflatThroughCSV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arsen\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

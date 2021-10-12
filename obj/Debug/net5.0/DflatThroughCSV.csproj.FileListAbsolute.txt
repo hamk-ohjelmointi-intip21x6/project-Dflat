@@ -1,0 +1,17 @@
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.csproj.AssemblyReference.cache
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.AssemblyInfoInputs.cache
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.AssemblyInfo.cs
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.csproj.CoreCompileInputs.cache
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.exe
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.deps.json
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.runtimeconfig.json
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.runtimeconfig.dev.json
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.dll
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\ref\DflatThroughCSV.dll
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\DflatThroughCSV.pdb
+C:\Users\arsen\source\repos\DflatThroughCSV\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.dll
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\ref\DflatThroughCSV.dll
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.pdb
+C:\Users\arsen\source\repos\DflatThroughCSV\obj\Debug\net5.0\DflatThroughCSV.genruntimeconfig.cache
