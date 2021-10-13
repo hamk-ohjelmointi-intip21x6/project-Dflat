@@ -1,4 +1,4 @@
-Viimeisin versio sijaitsee main branchissä.
+Viimeisin toimiva versio sijaitsee main branchissä.
 
 Ryhmä: Benjamin Soumah, Arseniy Sergeenko, Kim Kohonen, Hüseyin Aydin
 
